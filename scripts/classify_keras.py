@@ -56,18 +56,16 @@ for filename in os.listdir(path):
             data[0] = normalized_image_array
             
             # run the inference
-            prediction = model.predict(data)
-            #print(prediction)
+            prediction = model.predict(data)            
 
+            #sense check probability predictions
             probabilites = prediction * 100
-
             print (probabilites)
 
             max_index = np.argmax(prediction,axis=1)
             print(max_index)
 
             class_name = labels[max_index[0]]
-
             print(image_file,class_name)            
 
             os.makedirs(os.path.join(destination, class_name[1]), exist_ok=True)
