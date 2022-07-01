@@ -1,13 +1,14 @@
-0 Sampling Hand Bag
-1 Sampling Open Bags
-2 Yield Weight
-3 Sampling Weight Bags
-4 Label bags
+0 SamplingHandBag
+1 SamplingOpenBags
+2 YieldWeight
+3 SamplingWeightBags
+4 Labelbags
 5 Packaging
-6 Sampling Closed Bags
+6 SamplingClosedBags
 7 Location
-8 LUX Meter
-9 Inspection Kernel
-10 Total Sample Units
-11 Inspection In-shell
+8 LUXMeter
+9 InspectionKernel
+10 TotalSampleUnits
+11 InspectionIn-shell
 12 Loaded
+13 Worksheet

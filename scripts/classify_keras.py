@@ -14,17 +14,17 @@ import numpy as np
 from numpy import loadtxt
 
 # Load the model
-model = load_model('/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/MLModel/keras_model.h5')
-labels_file = open('/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/MLModel/labels.txt','r')
+model = load_model('/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/product-inspection-image-classifier/MLModel/keras_model.h5')
+labels_file = open('/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/product-inspection-image-classifier/MLModel/labels.txt','r')
 labels = []
 labels = [line.split() for line in labels_file]
 print (labels)
 
 # Path to the folder containing the images to be classified
-path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/xyzFoods"
+path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-29062022"
 
 # Path to the folder where the classified images will be moved
-destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/xyzFoods"
+destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-29062022"
 
 # URL of the tensorflow.js model hosted on Teachable machine
 #url = "https://teachablemachine.withgoogle.com/models/lcuBVP0R1/model.json"
@@ -56,7 +56,7 @@ for filename in os.listdir(path):
             data[0] = normalized_image_array
             
             # run the inference
-            prediction = model.predict(data)            
+            prediction = model.predict(data)        
 
             #sense check probability predictions
             probabilites = prediction * 100
