@@ -9,6 +9,6 @@
 8 LUXMeter
 9 InspectionKernel
 10 TotalSampleUnits
-11 InspectionIn-shell
+11 InspectioninShell
 12 Loaded
 13 Worksheet
