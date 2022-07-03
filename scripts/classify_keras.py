@@ -21,10 +21,10 @@ labels = [line.split() for line in labels_file]
 print (labels)
 
 # Path to the folder containing the images to be classified
-path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-29062022"
+path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-30062022"
 
 # Path to the folder where the classified images will be moved
-destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-29062022"
+destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-30062022"
 
 # URL of the tensorflow.js model hosted on Teachable machine
 #url = "https://teachablemachine.withgoogle.com/models/lcuBVP0R1/model.json"
@@ -37,6 +37,8 @@ for filename in os.listdir(path):
 
         # Read the image
         with open(os.path.join(path, filename), "rb") as image_file:
+            print(image_file)            
+
             # Create the array of the right shape to feed into the keras model
             # The 'length' or number of images you can put into the array is
             # determined by the first position in the shape tuple, in this case 1.
