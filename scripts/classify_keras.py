@@ -21,10 +21,10 @@ labels = [line.split() for line in labels_file]
 print (labels)
 
 # Path to the folder containing the images to be classified
-path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-30062022"
+path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/HIRA_VJ03_10052023"
 
 # Path to the folder where the classified images will be moved
-destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/hira-30062022"
+destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/HIRA_VJ03_10052023"
 
 # URL of the tensorflow.js model hosted on Teachable machine
 #url = "https://teachablemachine.withgoogle.com/models/lcuBVP0R1/model.json"

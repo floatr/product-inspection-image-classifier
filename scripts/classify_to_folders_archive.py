@@ -11,10 +11,10 @@ import shutil
 
 
 # Path to the folder containing the images to be classified
-path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/xyzFoods"
+path = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/HIRA_JR01_18042023"
 
 # Path to the folder where the classified images will be stored
-destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/xyzFoods"
+destination = "/Users/kedar/Desktop/nativa-box/walnuts_ML_AI/SimpleImageClassification/SiteVisits/HIRA_JR01_18042023"
 
 # URL of the Tensor Flow JS ML model
 url = "https://teachablemachine.withgoogle.com/models/lcuBVP0R1/"

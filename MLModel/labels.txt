@@ -12,3 +12,7 @@
 11 InspectioninShell
 12 Loaded
 13 Worksheet
+14 InspectionKernelDefects
+15 InspectionInshellDefects
+16 InspectionInshellSize
+17 TotalSampleWeight
